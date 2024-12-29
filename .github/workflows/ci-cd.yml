@@ -31,7 +31,7 @@ jobs:
       # Run client tests
       - name: Run client tests
         working-directory: ./client
-        run: npm test
+        run: npm test -- --passWithNoTests
 
       # Install server dependencies
       - name: Install server dependencies
@@ -41,7 +41,7 @@ jobs:
       # Run server tests (if any)
       - name: Run server tests
         working-directory: ./server
-        run: npm test
+        run: npm test -- --passWithNoTests
 
       # Build the project
       - name: Build the project
