@@ -5,14 +5,17 @@ services:
   backend:
     build: ./server # Path to the backend directory (where your Dockerfile is)
     ports:
-      - "3001:3001" # Exposes port 3001 for the backend
+      - "3001:3001"
     depends_on:
       - db # Ensures the database starts first
+      - redis # Ensures Redis starts before the backend
     environment:
       - DB_HOST=db # Points to the db container (service name)
       - DB_USER=root
       - DB_PASSWORD=Polaci2021. # Set a password for MySQL
       - DB_NAME=qerdhja # Specify the database name
+      - REDIS_HOST=redis # Points to the Redis container (service name)
+      - REDIS_PORT=6379 # Default Redis port
 
   # React frontend service
   frontend:
@@ -28,6 +31,14 @@ services:
       MYSQL_DATABASE: qerdhja # Automatically create the database
     volumes:
       - mysql_data:/var/lib/mysql # Persistent storage for MySQL data
+
+  # Redis service
+  redis:
+    image: redis:latest # Use the official Redis image
+    container_name: redis
+    ports:
+      - "6379:6379" # Expose Redis port
+    restart: always # Ensure Redis always restarts on failure
 
 volumes:
   mysql_data: # Docker volume to store MySQL data

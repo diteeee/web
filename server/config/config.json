@@ -3,7 +3,7 @@
     "username": "root",
     "password": "Polaci2021.",
     "database": "qerdhja",
-    "host": "localhost",
+    "host": "db",
     "dialect": "mysql"
   },
   "test": {

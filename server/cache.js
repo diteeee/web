@@ -3,7 +3,7 @@ const logger = require("./config/logger");
 
 const client = redis.createClient({
   socket: {
-    host: "localhost",
+    host: "redis", // Changed from 'localhost' to 'redis'
     port: 6379,
   },
 });

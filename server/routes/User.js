@@ -1,5 +1,5 @@
 const express = require("express");
-const bcrypt = require("bcrypt");
+const bcrypt = require("bcryptjs");
 const { User, Kid, Teacher, sequelize } = require("../models");
 const router = express.Router();
 const auth = require("../middleware/auth");
