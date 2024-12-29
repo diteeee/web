@@ -33,6 +33,17 @@ jobs:
         working-directory: ./client
         run: npm test -- --passWithNoTests
 
+      # Build the client project (React app)
+      - name: Build client project
+        working-directory: ./client
+        run: npm run build
+
+      # Set up Node.js for server
+      - name: Set up Node.js for server
+        uses: actions/setup-node@v3
+        with:
+          node-version: 18
+
       # Install server dependencies
       - name: Install server dependencies
         working-directory: ./server
@@ -42,10 +53,6 @@ jobs:
       - name: Run server tests
         working-directory: ./server
         run: npm test -- --passWithNoTests
-
-      # Build the project
-      - name: Build the project
-        run: npm run build
 
       # Dockerize the application
       - name: Build Docker Image
