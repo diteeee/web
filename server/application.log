@@ -1,0 +1,73 @@
+[2024-12-29T18:22:17.483Z] [32minfo[39m: Server running on 3001
+[2024-12-29T18:23:22.120Z] [32minfo[39m: Server running on 3001
+[2024-12-29T18:24:39.748Z] [32minfo[39m: Server running on 3001
+[2024-12-29T18:25:14.726Z] [32minfo[39m: Server running on 3001
+[2024-12-29T18:25:37.632Z] [32minfo[39m: Server running on 3001
+[2024-12-29T18:25:58.600Z] [32minfo[39m: Server running on 3001
+[2024-12-29T18:26:15.980Z] [32minfo[39m: Server running on 3001
+[2024-12-29T18:26:34.942Z] [32minfo[39m: Server running on 3001
+[2024-12-29T18:27:04.736Z] [32minfo[39m: Connected to Redis...
+[2024-12-29T18:27:04.749Z] [32minfo[39m: Redis is ready
+[2024-12-29T18:27:04.788Z] [32minfo[39m: Server running on 3001
+[2024-12-29T18:27:23.670Z] [32minfo[39m: Connected to Redis...
+[2024-12-29T18:27:23.683Z] [32minfo[39m: Redis is ready
+[2024-12-29T18:27:23.708Z] [32minfo[39m: Server running on 3001
+[2024-12-29T18:27:45.611Z] [32minfo[39m: Connected to Redis...
+[2024-12-29T18:27:45.624Z] [32minfo[39m: Redis is ready
+[2024-12-29T18:27:45.648Z] [32minfo[39m: Server running on 3001
+[2024-12-29T18:27:53.028Z] [32minfo[39m: Connected to Redis...
+[2024-12-29T18:27:53.047Z] [32minfo[39m: Redis is ready
+[2024-12-29T18:27:53.083Z] [32minfo[39m: Server running on 3001
+[2024-12-29T18:33:25.136Z] [32minfo[39m: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySUQiOjE1LCJyb2xlIjoidXNlciIsImVtYWlsIjoibG9sZGFueXVsQGdtYWlsLmNvbSIsImVtcmkiOiJEaXRhIiwibWJpZW1yaSI6IkRpdGEiLCJpYXQiOjE3MzU0OTU4MTgsImV4cCI6MTczODA4NzgxOH0.m2jE_x6hRYyum2gjdVMd6P9Iv0g0tUS2Or2Ty5hfOP0
+[2024-12-29T18:36:12.473Z] [32minfo[39m: Connected to Redis...
+[2024-12-29T18:36:12.489Z] [32minfo[39m: Redis is ready
+[2024-12-29T18:36:12.517Z] [32minfo[39m: Server running on 3001
+[2024-12-29T18:36:23.215Z] [32minfo[39m: Request received:
+[2024-12-29T18:36:23.278Z] [32minfo[39m: Sign-in successful for email:
+[2024-12-29T18:36:28.662Z] [32minfo[39m: Serving teachers from cache...
+[2024-12-29T18:36:28.667Z] [32minfo[39m: Serving teachers from cache...
+[2024-12-29T18:37:23.555Z] [32minfo[39m: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySUQiOjIsInJvbGUiOiJhZG1pbiIsImVtYWlsIjoiaGdAZ21haWwuY29tIiwiZW1yaSI6IkhhbmEiLCJtYmllbXJpIjoiR2FzaGkiLCJpYXQiOjE3MzU0OTczODMsImV4cCI6MTczODA4OTM4M30.bykn3cQk6IaVFuEykxMQTGcSVjUfl1XmT6FbfbF4vIQ
+[2024-12-29T18:38:34.683Z] [32minfo[39m: Connected to Redis...
+[2024-12-29T18:38:34.697Z] [32minfo[39m: Redis is ready
+[2024-12-29T18:38:34.726Z] [32minfo[39m: Server running on 3001
+[2024-12-29T18:38:37.820Z] [32minfo[39m: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySUQiOjIsInJvbGUiOiJhZG1pbiIsImVtYWlsIjoiaGdAZ21haWwuY29tIiwiZW1yaSI6IkhhbmEiLCJtYmllbXJpIjoiR2FzaGkiLCJpYXQiOjE3MzU0OTczODMsImV4cCI6MTczODA4OTM4M30.bykn3cQk6IaVFuEykxMQTGcSVjUfl1XmT6FbfbF4vIQ
+[2024-12-29T18:38:37.824Z] [32minfo[39m: [object Object]
+[2024-12-29T18:38:37.824Z] [32minfo[39m: User ID from token:
+[2024-12-29T18:38:37.838Z] [32minfo[39m: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySUQiOjIsInJvbGUiOiJhZG1pbiIsImVtYWlsIjoiaGdAZ21haWwuY29tIiwiZW1yaSI6IkhhbmEiLCJtYmllbXJpIjoiR2FzaGkiLCJpYXQiOjE3MzU0OTczODMsImV4cCI6MTczODA4OTM4M30.bykn3cQk6IaVFuEykxMQTGcSVjUfl1XmT6FbfbF4vIQ
+[2024-12-29T18:38:37.840Z] [32minfo[39m: [object Object]
+[2024-12-29T18:38:37.840Z] [32minfo[39m: User ID from token:
+[2024-12-29T18:38:37.842Z] [32minfo[39m: Serving profile from cache...
+[2024-12-29T18:38:43.386Z] [32minfo[39m: Connected to Redis...
+[2024-12-29T18:38:43.400Z] [32minfo[39m: Redis is ready
+[2024-12-29T18:38:43.426Z] [32minfo[39m: Server running on 3001
+[2024-12-29T18:40:34.410Z] [32minfo[39m: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySUQiOjIsInJvbGUiOiJhZG1pbiIsImVtYWlsIjoiaGdAZ21haWwuY29tIiwiZW1yaSI6IkhhbmEiLCJtYmllbXJpIjoiR2FzaGkiLCJpYXQiOjE3MzU0OTczODMsImV4cCI6MTczODA4OTM4M30.bykn3cQk6IaVFuEykxMQTGcSVjUfl1XmT6FbfbF4vIQ
+[2024-12-29T18:40:34.413Z] [32minfo[39m: [object Object]
+[2024-12-29T18:40:34.414Z] [32minfo[39m: User ID from token:
+[2024-12-29T18:40:34.415Z] [32minfo[39m: Serving profile from cache...
+[2024-12-29T18:40:34.419Z] [32minfo[39m: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySUQiOjIsInJvbGUiOiJhZG1pbiIsImVtYWlsIjoiaGdAZ21haWwuY29tIiwiZW1yaSI6IkhhbmEiLCJtYmllbXJpIjoiR2FzaGkiLCJpYXQiOjE3MzU0OTczODMsImV4cCI6MTczODA4OTM4M30.bykn3cQk6IaVFuEykxMQTGcSVjUfl1XmT6FbfbF4vIQ
+[2024-12-29T18:40:34.421Z] [32minfo[39m: [object Object]
+[2024-12-29T18:40:34.421Z] [32minfo[39m: User ID from token:
+[2024-12-29T18:40:34.422Z] [32minfo[39m: Serving profile from cache...
+[2024-12-29T18:42:47.532Z] [32minfo[39m: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySUQiOjIsInJvbGUiOiJhZG1pbiIsImVtYWlsIjoiaGdAZ21haWwuY29tIiwiZW1yaSI6IkhhbmEiLCJtYmllbXJpIjoiR2FzaGkiLCJpYXQiOjE3MzU0OTczODMsImV4cCI6MTczODA4OTM4M30.bykn3cQk6IaVFuEykxMQTGcSVjUfl1XmT6FbfbF4vIQ
+[2024-12-29T18:42:47.534Z] [32minfo[39m: [object Object]
+[2024-12-29T18:42:47.534Z] [32minfo[39m: User ID from token:
+[2024-12-29T18:42:47.535Z] [32minfo[39m: Serving profile from cache...
+[2024-12-29T18:42:47.536Z] [32minfo[39m: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySUQiOjIsInJvbGUiOiJhZG1pbiIsImVtYWlsIjoiaGdAZ21haWwuY29tIiwiZW1yaSI6IkhhbmEiLCJtYmllbXJpIjoiR2FzaGkiLCJpYXQiOjE3MzU0OTczODMsImV4cCI6MTczODA4OTM4M30.bykn3cQk6IaVFuEykxMQTGcSVjUfl1XmT6FbfbF4vIQ
+[2024-12-29T18:42:47.537Z] [32minfo[39m: [object Object]
+[2024-12-29T18:42:47.538Z] [32minfo[39m: User ID from token:
+[2024-12-29T18:42:47.539Z] [32minfo[39m: Serving profile from cache...
+[2024-12-29T18:45:40.160Z] [32minfo[39m: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySUQiOjIsInJvbGUiOiJhZG1pbiIsImVtYWlsIjoiaGdAZ21haWwuY29tIiwiZW1yaSI6IkhhbmEiLCJtYmllbXJpIjoiR2FzaGkiLCJpYXQiOjE3MzU0OTczODMsImV4cCI6MTczODA4OTM4M30.bykn3cQk6IaVFuEykxMQTGcSVjUfl1XmT6FbfbF4vIQ
+[2024-12-29T18:45:40.163Z] [32minfo[39m: [object Object]
+[2024-12-29T18:45:40.163Z] [32minfo[39m: User ID from token:
+[2024-12-29T18:45:40.164Z] [32minfo[39m: Serving profile from cache...
+[2024-12-29T18:45:40.167Z] [32minfo[39m: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySUQiOjIsInJvbGUiOiJhZG1pbiIsImVtYWlsIjoiaGdAZ21haWwuY29tIiwiZW1yaSI6IkhhbmEiLCJtYmllbXJpIjoiR2FzaGkiLCJpYXQiOjE3MzU0OTczODMsImV4cCI6MTczODA4OTM4M30.bykn3cQk6IaVFuEykxMQTGcSVjUfl1XmT6FbfbF4vIQ
+[2024-12-29T18:45:40.168Z] [32minfo[39m: [object Object]
+[2024-12-29T18:45:40.169Z] [32minfo[39m: User ID from token:
+[2024-12-29T18:45:40.169Z] [32minfo[39m: Serving profile from cache...
+[2024-12-29T19:39:22.843Z] [32minfo[39m: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySUQiOjIsInJvbGUiOiJhZG1pbiIsImVtYWlsIjoiaGdAZ21haWwuY29tIiwiZW1yaSI6IkhhbmEiLCJtYmllbXJpIjoiR2FzaGkiLCJpYXQiOjE3MzU0OTczODMsImV4cCI6MTczODA4OTM4M30.bykn3cQk6IaVFuEykxMQTGcSVjUfl1XmT6FbfbF4vIQ
+[2024-12-29T19:39:22.845Z] [32minfo[39m: [object Object]
+[2024-12-29T19:39:22.846Z] [32minfo[39m: User ID from token:
+[2024-12-29T19:39:22.863Z] [32minfo[39m: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySUQiOjIsInJvbGUiOiJhZG1pbiIsImVtYWlsIjoiaGdAZ21haWwuY29tIiwiZW1yaSI6IkhhbmEiLCJtYmllbXJpIjoiR2FzaGkiLCJpYXQiOjE3MzU0OTczODMsImV4cCI6MTczODA4OTM4M30.bykn3cQk6IaVFuEykxMQTGcSVjUfl1XmT6FbfbF4vIQ
+[2024-12-29T19:39:22.865Z] [32minfo[39m: [object Object]
+[2024-12-29T19:39:22.865Z] [32minfo[39m: User ID from token:
+[2024-12-29T19:39:22.866Z] [32minfo[39m: Serving profile from cache...

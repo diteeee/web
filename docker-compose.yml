@@ -1,0 +1,33 @@
+version: '3.8'
+
+services:
+  # Node.js backend service
+  backend:
+    build: ./server # Path to the backend directory (where your Dockerfile is)
+    ports:
+      - "3001:3001" # Exposes port 3001 for the backend
+    depends_on:
+      - db # Ensures the database starts first
+    environment:
+      - DB_HOST=db # Points to the db container (service name)
+      - DB_USER=root
+      - DB_PASSWORD=Polaci2021. # Set a password for MySQL
+      - DB_NAME=qerdhja # Specify the database name
+
+  # React frontend service
+  frontend:
+    build: ./client # Path to the frontend directory (where your Dockerfile is)
+    ports:
+      - "3000:3000" # Exposes port 3000 for the frontend
+
+  # MySQL database service
+  db:
+    image: mysql:8.0 # Use the official MySQL image
+    environment:
+      MYSQL_ROOT_PASSWORD: Polaci2021. # Set root password for MySQL
+      MYSQL_DATABASE: qerdhja # Automatically create the database
+    volumes:
+      - mysql_data:/var/lib/mysql # Persistent storage for MySQL data
+
+volumes:
+  mysql_data: # Docker volume to store MySQL data
