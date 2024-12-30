@@ -56,11 +56,11 @@ jobs:
 
       # Build Docker Image for Server
       - name: Build Docker Image for Server
-        run: docker build -f server/Dockerfile -t my-app-server:latest .
+        run: docker build -f server/Dockerfile -t ditua/my-app-server:latest .
 
       # Build Docker Image for Client
       - name: Build Docker Image for Client
-        run: docker build -f client/Dockerfile -t my-app-client:latest ./client
+        run: docker build -f client/Dockerfile -t ditua/my-app-client:latest ./client
 
       # Docker login
       - name: Docker login
