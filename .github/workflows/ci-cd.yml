@@ -100,7 +100,7 @@ jobs:
 
       # Navigate to project directory (if necessary)
       - name: Navigate to project directory
-        run: cd /path/to/your/project
+        run: cd /Users/Dita/Desktop/web
 
       # Pull latest Docker images
       - name: Pull latest Docker images
