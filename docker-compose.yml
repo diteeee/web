@@ -3,7 +3,9 @@ version: '3.8'
 services:
   # Node.js backend service
   backend:
-    build: ./server # Path to the backend directory (where your Dockerfile is)
+    build:
+      context: ./server # Path to the directory containing your Dockerfile
+      dockerfile: Dockerfile # Name of your Dockerfile in the server folder
     ports:
       - "3001:3001"
     depends_on:
