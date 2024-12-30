@@ -60,7 +60,7 @@ jobs:
 
       # Build Docker Image for Client
       - name: Build Docker Image for Client
-        run: docker build -f client/Dockerfile -t my-app-client:latest .
+        run: docker build -f client/Dockerfile -t my-app-client:latest ./client
 
       # Docker login
       - name: Docker login
