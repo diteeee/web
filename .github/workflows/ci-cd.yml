@@ -56,7 +56,10 @@ jobs:
 
       # Dockerize the application
       - name: Build Docker Image
-        run: docker build -t my-app:latest .
+        run: docker build -f server/Dockerfile -t my-app-server:latest .
+
+      - name: Build Client Docker Image
+        run: docker build -f client/Dockerfile -t my-app-client:latest .
 
       # Push Docker Image (Optional)
       - name: Push Docker Image
