@@ -12,7 +12,10 @@ RUN npm run build
 FROM nginx:alpine
 
 # Step 3: Copy the Nginx config
-COPY client/config/nginx.conf /etc/nginx/nginx.conf
+COPY nginx.conf /etc/nginx/nginx.conf
+
+# Debug the Nginx config (optional)
+RUN ls -l /etc/nginx/
 
 # Step 4: Copy the built React app into the Nginx container
 COPY --from=build /client/build /usr/share/nginx/html
