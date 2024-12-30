@@ -2,7 +2,7 @@
 FROM node:16 AS build
 
 WORKDIR /client
-COPY package.json package-lock.json ./ 
+COPY package.json package-lock.json /client/
 RUN npm install
 
 COPY . /client
@@ -12,7 +12,7 @@ RUN npm run build
 FROM nginx:alpine
 
 # Step 3: Copy the Nginx config
-COPY client/nginx.conf /etc/nginx/nginx.conf
+COPY nginx.conf /etc/nginx/nginx.conf
 
 # Step 4: Copy the built React app into the Nginx container
 COPY --from=build /client/build /usr/share/nginx/html
