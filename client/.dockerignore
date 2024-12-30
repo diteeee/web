@@ -1,0 +1,11 @@
+# Ignore node_modules
+node_modules/
+
+# Ignore build directory (we copy this later after building in the Dockerfile)
+build/
+
+# Ignore any other non-essential files or directories
+*.log
+*.md
+.git/
+.gitignore
