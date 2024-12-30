@@ -107,10 +107,6 @@ jobs:
       - name: Deploy containers
         run: docker-compose up -d
 
-      # Check container status
-      - name: Check Docker container status
-        run: docker ps -a
-
       # Show Docker Compose logs
       - name: Show Docker Compose logs
         run: docker-compose logs
