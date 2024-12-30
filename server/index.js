@@ -38,17 +38,10 @@ const { swaggerUi, swaggerSpec } = require('./config/swagger');  // Import Swagg
 // Serve the Swagger API documentation at /api-docs route
 app.use('/api-docs', swaggerUi.serve, swaggerUi.setup(swaggerSpec));
 
-db.sequelize.sync().then(() => {
-  const PORT = process.env.PORT || 3001;
-  app.listen(PORT, () => {
-  console.log(`Server is running on port ${PORT}`);
-});
-});
-
 const redisClient = redis.createClient({
   socket: {
-    host: "localhost",
-    port: 6379,
+    host: process.env.REDIS_HOST || "redis",
+    port: process.env.REDIS_PORT || 6379,
     timeout: 5000,
   },
 });
@@ -61,10 +54,9 @@ redisClient.on("error", (err) => {
   logger.error("Error connecting to Redis:", err);
 });
 
-(async () => {
-  try {
-    await redisClient.connect();
-  } catch (err) {
-    logger.error("Failed to connect to Redis:", err);
-  }
+db.sequelize.sync().then(() => {
+  const PORT = process.env.PORT || 3001;
+  app.listen(PORT, () => {
+  console.log(`Server is running on port ${PORT}`);
+});
 });

@@ -8,7 +8,7 @@ const logger = require("../config/logger");
 
 /**
  * @swagger
- * /kids:
+ * /v1/kids:
  *   get:
  *     summary: Get all kids
  *     tags: [Kids]
@@ -60,7 +60,7 @@ router.get("/", auth, checkRole(["admin", "user"]), async (req, res) => {
 
 /**
 * @swagger
-* /kids/my-kid:
+* /v1/kids/my-kid:
 *   get:
 *     summary: Get a kid by parent email
 *     tags: [Kids]
@@ -134,7 +134,7 @@ router.get("/my-kid", async (req, res) => {
 
 /**
  * @swagger
- * /kids:
+ * /v1/kids:
  *   post:
  *     summary: Add a new kid
  *     tags: [Kids]
@@ -207,7 +207,7 @@ router.post("/", auth, checkRole(["admin"]), async (req, res) => {
 
 /**
  * @swagger
- * /kids/{kidID}:
+ * /v1/kids/{kidID}:
  *   put:
  *     summary: Update kid details
  *     description: Update an existing kids's details
@@ -283,7 +283,7 @@ router.put("/:kidID", auth, checkRole(["admin"]), async (req, res) => {
 
 /**
  * @swagger
- * /kids/{kidID}:
+ * /v1/kids/{kidID}:
  *   delete:
  *     summary: Delete a kid
  *     tags: [Kids]

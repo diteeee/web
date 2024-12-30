@@ -21,7 +21,7 @@ const upload = multer({
 
 /**
  * @swagger
- * /teachers:
+ * /v1/teachers:
  *   get:
  *     summary: Get all teachers
  *     tags: [Teachers]
@@ -83,7 +83,7 @@ router.get("/", async (req, res) => {
 
 /**
  * @swagger
- * /teachers:
+ * /v1/teachers:
  *   post:
  *     summary: Create a new teacher
  *     tags: [Teachers]
@@ -153,7 +153,7 @@ router.post("/", auth, checkRole(["admin"]), upload.single("imageUrl"), async (r
 
 /**
  * @swagger
- * /teachers/{teacherID}:
+ * /v1/teachers/{teacherID}:
  *   put:
  *     summary: Update an existing teacher's details
  *     tags: [Teachers]
@@ -245,7 +245,7 @@ router.put("/:teacherID", auth, checkRole(["admin"]), upload.single("imageUrl"),
 
 /**
  * @swagger
- * /teachers/{teacherID}:
+ * /v1/teachers/{teacherID}:
  *   delete:
  *     summary: Delele an existing teacher
  *     tags: [Teachers]

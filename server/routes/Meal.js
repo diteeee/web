@@ -9,7 +9,7 @@ const logger = require("../config/logger");
 
 /**
  * @swagger
- * /meals:
+ * /v1/meals:
  *   get:
  *     summary: Get all meals
  *     tags: [Meals]
@@ -53,7 +53,7 @@ router.get("/", auth, checkRole(["admin", "user"]), async (req, res) => {
 
 /**
  * @swagger
- * /meals:
+ * /v1/meals:
  *   post:
  *     summary: Create a new meal
  *     tags: [Meals]
@@ -120,7 +120,7 @@ router.post("/", auth, checkRole(["admin"]), async (req, res) => {
 
 /**
  * @swagger
- * /meals/{mealID}:
+ * /v1/meals/{mealID}:
  *   put:
  *     summary: Update an existing meal
  *     tags: [Meals]
@@ -197,7 +197,7 @@ router.put("/:mealID", auth, checkRole(["admin"]), async (req, res) => {
 
 /**
  * @swagger
- * /meals/{mealID}:
+ * /v1/meals/{mealID}:
  *   delete:
  *     summary: Delete a meal
  *     tags: [Meals]

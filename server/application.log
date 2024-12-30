@@ -111,3 +111,100 @@
 [2024-12-29T23:32:03.718Z] [32minfo[39m: Redis is ready
 [2024-12-29T23:32:58.076Z] [32minfo[39m: Connected to Redis...
 [2024-12-29T23:32:58.091Z] [32minfo[39m: Redis is ready
+[2024-12-30T01:33:49.605Z] [31merror[39m: Redis error: getaddrinfo ENOTFOUND redis
+[2024-12-30T01:34:18.029Z] [31merror[39m: Redis error: getaddrinfo ENOTFOUND redis
+[2024-12-30T01:34:21.612Z] [31merror[39m: Redis error: getaddrinfo ENOTFOUND redis
+[2024-12-30T01:34:36.274Z] [31merror[39m: Redis error: getaddrinfo ENOTFOUND redis
+[2024-12-30T01:34:51.479Z] [31merror[39m: Redis error: getaddrinfo ENOTFOUND redis
+[2024-12-30T01:35:29.352Z] [31merror[39m: Redis error: getaddrinfo ENOTFOUND redis
+[2024-12-30T01:35:48.077Z] [31merror[39m: Redis error: getaddrinfo ENOTFOUND redis
+[2024-12-30T01:37:05.290Z] [31merror[39m: Redis error: getaddrinfo ENOTFOUND redis
+[2024-12-30T01:37:08.000Z] [31merror[39m: Redis error: getaddrinfo ENOTFOUND redis
+[2024-12-30T01:37:10.736Z] [31merror[39m: Redis error: getaddrinfo ENOTFOUND redis
+[2024-12-30T01:37:13.536Z] [31merror[39m: Redis error: getaddrinfo ENOTFOUND redis
+[2024-12-30T01:37:16.401Z] [31merror[39m: Redis error: getaddrinfo ENOTFOUND redis
+[2024-12-30T01:37:19.308Z] [31merror[39m: Redis error: getaddrinfo ENOTFOUND redis
+[2024-12-30T01:37:22.257Z] [31merror[39m: Redis error: getaddrinfo ENOTFOUND redis
+[2024-12-30T01:37:25.267Z] [31merror[39m: Redis error: getaddrinfo ENOTFOUND redis
+[2024-12-30T01:37:28.304Z] [31merror[39m: Redis error: getaddrinfo ENOTFOUND redis
+[2024-12-30T01:37:45.362Z] [31merror[39m: Redis error: getaddrinfo ENOTFOUND redis
+[2024-12-30T01:39:27.439Z] [31merror[39m: Redis error: getaddrinfo ENOTFOUND redis
+[2024-12-30T02:01:31.685Z] [31merror[39m: Redis error: getaddrinfo ENOTFOUND redis
+[2024-12-30T02:01:40.884Z] [31merror[39m: Redis error: getaddrinfo ENOTFOUND redis
+[2024-12-30T02:01:43.595Z] [31merror[39m: Redis error: getaddrinfo ENOTFOUND redis
+[2024-12-30T02:01:46.349Z] [31merror[39m: Redis error: getaddrinfo ENOTFOUND redis
+[2024-12-30T02:01:49.127Z] [31merror[39m: Redis error: getaddrinfo ENOTFOUND redis
+[2024-12-30T02:01:51.978Z] [31merror[39m: Redis error: getaddrinfo ENOTFOUND redis
+[2024-12-30T02:01:54.891Z] [31merror[39m: Redis error: getaddrinfo ENOTFOUND redis
+[2024-12-30T02:01:57.829Z] [31merror[39m: Redis error: getaddrinfo ENOTFOUND redis
+[2024-12-30T02:02:00.815Z] [31merror[39m: Redis error: getaddrinfo ENOTFOUND redis
+[2024-12-30T02:02:03.863Z] [31merror[39m: Redis error: getaddrinfo ENOTFOUND redis
+[2024-12-30T02:02:06.956Z] [31merror[39m: Redis error: getaddrinfo ENOTFOUND redis
+[2024-12-30T02:38:34.281Z] [31merror[39m: Redis error: getaddrinfo ENOTFOUND redis
+[2024-12-30T02:39:35.242Z] [31merror[39m: Redis error: getaddrinfo ENOTFOUND redis
+[2024-12-30T02:39:37.961Z] [31merror[39m: Redis error: getaddrinfo ENOTFOUND redis
+[2024-12-30T02:39:40.732Z] [31merror[39m: Redis error: getaddrinfo ENOTFOUND redis
+[2024-12-30T02:39:43.529Z] [31merror[39m: Redis error: getaddrinfo ENOTFOUND redis
+[2024-12-30T02:39:46.381Z] [31merror[39m: Redis error: getaddrinfo ENOTFOUND redis
+[2024-12-30T02:39:49.289Z] [31merror[39m: Redis error: getaddrinfo ENOTFOUND redis
+[2024-12-30T02:39:52.246Z] [31merror[39m: Redis error: getaddrinfo ENOTFOUND redis
+[2024-12-30T02:39:55.262Z] [31merror[39m: Redis error: getaddrinfo ENOTFOUND redis
+[2024-12-30T02:39:58.323Z] [31merror[39m: Redis error: getaddrinfo ENOTFOUND redis
+[2024-12-30T02:40:01.431Z] [31merror[39m: Redis error: getaddrinfo ENOTFOUND redis
+[2024-12-30T02:40:04.606Z] [31merror[39m: Redis error: getaddrinfo ENOTFOUND redis
+[2024-12-30T02:40:07.827Z] [31merror[39m: Redis error: getaddrinfo ENOTFOUND redis
+[2024-12-30T02:40:11.034Z] [31merror[39m: Redis error: getaddrinfo ENOTFOUND redis
+[2024-12-30T02:40:14.258Z] [31merror[39m: Redis error: getaddrinfo ENOTFOUND redis
+[2024-12-30T02:40:17.469Z] [31merror[39m: Redis error: getaddrinfo ENOTFOUND redis
+[2024-12-30T02:40:20.688Z] [31merror[39m: Redis error: getaddrinfo ENOTFOUND redis
+[2024-12-30T02:40:23.907Z] [31merror[39m: Redis error: getaddrinfo ENOTFOUND redis
+[2024-12-30T02:40:27.122Z] [31merror[39m: Redis error: getaddrinfo ENOTFOUND redis
+[2024-12-30T02:40:30.336Z] [31merror[39m: Redis error: getaddrinfo ENOTFOUND redis
+[2024-12-30T02:40:31.745Z] [32minfo[39m: Connected to Redis...
+[2024-12-30T02:40:31.759Z] [32minfo[39m: Redis is ready
+[2024-12-30T02:41:00.034Z] [32minfo[39m: Connected to Redis...
+[2024-12-30T02:41:00.047Z] [32minfo[39m: Redis is ready
+[2024-12-30T02:44:07.710Z] [32minfo[39m: Connected to Redis...
+[2024-12-30T02:44:07.724Z] [32minfo[39m: Redis is ready
+[2024-12-30T02:46:27.967Z] [32minfo[39m: Connected to Redis...
+[2024-12-30T02:46:27.981Z] [32minfo[39m: Redis is ready
+[2024-12-30T02:47:43.682Z] [31merror[39m: Redis error: read ECONNRESET
+[2024-12-30T02:47:43.690Z] [31merror[39m: Redis error:
+[2024-12-30T02:47:43.709Z] [31merror[39m: Redis error:
+[2024-12-30T02:47:43.775Z] [31merror[39m: Redis error:
+[2024-12-30T02:47:43.879Z] [31merror[39m: Redis error:
+[2024-12-30T02:47:44.042Z] [31merror[39m: Redis error:
+[2024-12-30T02:47:44.261Z] [31merror[39m: Redis error:
+[2024-12-30T02:47:44.529Z] [31merror[39m: Redis error:
+[2024-12-30T02:47:44.843Z] [31merror[39m: Redis error:
+[2024-12-30T02:47:45.208Z] [31merror[39m: Redis error:
+[2024-12-30T02:47:45.620Z] [31merror[39m: Redis error:
+[2024-12-30T02:47:46.079Z] [31merror[39m: Redis error:
+[2024-12-30T02:50:03.796Z] [32minfo[39m: Connected to Redis...
+[2024-12-30T02:50:03.810Z] [32minfo[39m: Redis is ready
+[2024-12-30T02:51:54.816Z] [32minfo[39m: Connected to Redis...
+[2024-12-30T02:51:54.831Z] [32minfo[39m: Redis is ready
+[2024-12-30T02:53:55.239Z] [32minfo[39m: Connected to Redis...
+[2024-12-30T02:53:55.254Z] [32minfo[39m: Redis is ready
+[2024-12-30T02:54:15.445Z] [32minfo[39m: Cache miss, fetching from database...
+[2024-12-30T02:54:15.454Z] [32minfo[39m: Storing teachers in Redis cache...
+[2024-12-30T02:54:24.962Z] [32minfo[39m: Connected to Redis...
+[2024-12-30T02:54:24.976Z] [32minfo[39m: Redis is ready
+[2024-12-30T02:54:26.415Z] [32minfo[39m: Serving teachers from cache...
+[2024-12-30T02:55:36.261Z] [32minfo[39m: Connected to Redis...
+[2024-12-30T02:55:36.275Z] [32minfo[39m: Redis is ready
+[2024-12-30T02:55:46.923Z] [32minfo[39m: Serving teachers from cache...
+[2024-12-30T02:56:18.705Z] [32minfo[39m: Connected to Redis...
+[2024-12-30T02:56:18.720Z] [32minfo[39m: Redis is ready
+[2024-12-30T02:56:36.276Z] [32minfo[39m: Connected to Redis...
+[2024-12-30T02:56:36.291Z] [32minfo[39m: Redis is ready
+[2024-12-30T02:56:56.027Z] [32minfo[39m: Connected to Redis...
+[2024-12-30T02:56:56.042Z] [32minfo[39m: Redis is ready
+[2024-12-30T02:57:13.197Z] [32minfo[39m: Connected to Redis...
+[2024-12-30T02:57:13.213Z] [32minfo[39m: Redis is ready
+[2024-12-30T02:57:25.712Z] [32minfo[39m: Connected to Redis...
+[2024-12-30T02:57:25.726Z] [32minfo[39m: Redis is ready
+[2024-12-30T03:00:37.390Z] [32minfo[39m: Connected to Redis...
+[2024-12-30T03:00:37.405Z] [32minfo[39m: Redis is ready
+[2024-12-30T03:02:00.329Z] [32minfo[39m: Connected to Redis...
+[2024-12-30T03:02:00.334Z] [32minfo[39m: Redis is ready

@@ -23,7 +23,7 @@ services:
   frontend:
     build: ./client # Path to the frontend directory (where your Dockerfile is)
     ports:
-      - "3000:3000" # Exposes port 3000 for the frontend
+      - "8080:80" # Exposes port 80 for the frontend (Nginx will serve it on port 80)
 
   # MySQL database service
   db:

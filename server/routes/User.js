@@ -9,7 +9,7 @@ const logger = require("../config/logger");
 
 /**
  * @swagger
- * /users:
+ * /v1/users:
  *   post:
  *     summary: Create a new user
  *     tags: [Users]
@@ -143,7 +143,7 @@ router.post("/", async (req, res) => {
 
 /**
  * @swagger
- * /users:
+ * /v1/users:
  *   get:
  *     summary: Get all users
  *     tags: [Users]
@@ -197,7 +197,7 @@ router.get("/", auth, checkRole(["admin"]), async (req, res) => {
 
 /**
  * @swagger
- * /users/profile:
+ * /v1/users/profile:
  *   get:
  *     summary: Get the profile of the current user
  *     tags: [Users]
@@ -259,7 +259,7 @@ router.get("/profile", auth, async (req, res) => {
 
 /**
  * @swagger
- * /users/{userID}:
+ * /v1/users/{userID}:
  *   put:
  *     summary: Update an existing user's details
  *     tags: [Users]
@@ -309,7 +309,7 @@ router.get("/profile", auth, async (req, res) => {
  *       500:
  *         description: Failed to update user
  */
-router.put("/:userID", auth, checkRole(["admin", "user"]), async (req, res) => {
+router.put("/:userID", async (req, res) => {
   try {
     const { emri, mbiemri, email, password, role } = req.body;
     const userID = req.params.userID;
@@ -369,7 +369,7 @@ const isHashedPassword = (password) => {
 
 /**
  * @swagger
- * /users/{userID}:
+ * /v1/users/{userID}:
  *   delete:
  *     summary: Delete a user
  *     tags: [Users]

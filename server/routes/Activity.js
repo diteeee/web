@@ -8,7 +8,7 @@ const logger = require("../config/logger");
 
 /**
  * @swagger
- * /activities:
+ * /v1/activities:
  *   get:
  *     summary: Get all activities
  *     tags: [Activities]
@@ -56,7 +56,7 @@ router.get("/", async (req, res) => {
 
 /**
  * @swagger
- * /activities:
+ * /v1/activities:
  *   post:
  *     summary: Create a new activity
  *     tags: [Activities]
@@ -126,7 +126,7 @@ router.post("/", auth, checkRole(["admin"]), async (req, res) => {
 
 /**
  * @swagger
- * /activities/{activityID}:
+ * /v1/activities/{activityID}:
  *   put:
  *     summary: Update an existing activity
  *     tags: [Activities]
@@ -203,7 +203,7 @@ router.put("/:activityID", auth, checkRole(["admin"]), async (req, res) => {
 
 /**
  * @swagger
- * /activities/{activityID}:
+ * /v1/activities/{activityID}:
  *   delete:
  *     summary: Delete an activity
  *     tags: [Activities]
