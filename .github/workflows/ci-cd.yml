@@ -84,11 +84,12 @@ jobs:
       - name: Check out repository
         uses: actions/checkout@v3
 
+      - name: List directory structure for debugging
+        run: ls -R
+
       - name: Deploy to Production Server
         run: |
-          cd web
           echo "Deploying to production server..."
-          # Pull Docker images (update this as needed)
           docker pull ditua/my-app-server:latest
           docker pull ditua/my-app-client:latest
           docker-compose up -d
