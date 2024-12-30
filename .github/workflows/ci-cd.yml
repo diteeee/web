@@ -98,10 +98,7 @@ jobs:
       - name: Check Docker Compose version
         run: docker-compose --version
 
-      # Navigate to project directory (if necessary)
-      - name: Navigate to project directory
-        run: cd /Users/Dita/Desktop/web
-
+      # No need to navigate to a specific directory, stay in the root by default
       # Pull latest Docker images
       - name: Pull latest Docker images
         run: docker-compose pull
