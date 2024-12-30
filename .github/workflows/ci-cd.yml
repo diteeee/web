@@ -81,11 +81,14 @@ jobs:
     runs-on: ubuntu-latest
     needs: build
     steps:
-      # Example for deploying to AWS EC2 instance or similar
-      - name: Deploy to Server
+      - name: Check out repository
+        uses: actions/checkout@v3
+
+      - name: Navigate to the web directory
+        working-directory: web
         run: |
           echo "Deploying to production server..."
           # SSH into server and pull Docker images (update this as needed)
           docker pull ditua/my-app-server:latest
           docker pull ditua/my-app-client:latest
-          docker-compose up -d  # This assumes a docker-compose.yml is present on the server
+          docker-compose up -d
