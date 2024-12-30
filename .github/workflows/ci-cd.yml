@@ -71,11 +71,11 @@ jobs:
 
       # Push Server Docker Image
       - name: Push Server Docker Image
-        run: docker push my-app-server:latest
+        run: docker push ditua/my-app-server:latest
 
       # Push Client Docker Image
       - name: Push Client Docker Image
-        run: docker push my-app-client:latest
+        run: docker push ditua/my-app-client:latest
 
   deploy:
     runs-on: ubuntu-latest
@@ -86,6 +86,6 @@ jobs:
         run: |
           echo "Deploying to production server..."
           # SSH into server and pull Docker images (update this as needed)
-          docker pull my-app-server:latest
-          docker pull my-app-client:latest
+          docker pull ditua/my-app-server:latest
+          docker pull ditua/my-app-client:latest
           docker-compose up -d  # This assumes a docker-compose.yml is present on the server
